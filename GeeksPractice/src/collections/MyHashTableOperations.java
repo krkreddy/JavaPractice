@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.Map.Entry;
 import java.util.Enumeration;
 
-public class MyHtOperations {
+public class MyHashTableOperations {
 	
 	public static void main(String args[]){
 		String tracker;

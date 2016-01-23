@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.Collections;
 
 
-public class MyLLComparator {
+public class MyLinkedListComparator {
 	public static void main(String args[]){
 		LinkedList<Employee> ll = new LinkedList<Employee>();
 		ll.add(new Employee("Appu",4000));

@@ -2,7 +2,7 @@ package collections;
 
 import java.util.Hashtable;
 
-public class MyHtHashcode {
+public class MyHashTableHashcode {
 	
 	public static void main(String args[]){
 		Hashtable<Student,String> ht = new Hashtable<Student,String>();

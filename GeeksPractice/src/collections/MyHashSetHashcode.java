@@ -2,7 +2,7 @@ package collections;
 
 import java.util.HashSet;
 
-public class MyHsHashcode {
+public class MyHashSetHashcode {
 	
 	public static void main(String args[]){
 		HashSet<Company> hs = new HashSet<Company>();
