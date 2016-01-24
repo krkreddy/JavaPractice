@@ -11,6 +11,7 @@ public class FinallyBlock {
 		// Here as the exception occurs both catch and finally block are being executed
 		try{
 			int i=10/0;
+			System.out.println(i);
 		}
 		catch(Exception ex){
 			System.out.println("Exception in the 1st block");
@@ -21,6 +22,7 @@ public class FinallyBlock {
 		// Here as the exception does not occur only finally block is executed executed
 		try{
 			int i=10/10;
+			System.out.println(i);
 		}
 		catch(Exception ex){
 			System.out.println("Exception in the 2nd block");
