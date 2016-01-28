@@ -1,10 +1,39 @@
 package dataStructures;
 
+// Demostrates the use of StringBuilder over String with implementation of Stack
+
 public class DecimalToBinaryStack {
 	
-	public static void main(String args[]){
+	public static String convertDeciToBin(int value){
 		DynamicStack ds = new DynamicStack(5);
-		
+		int rem;
+//		String result; // this is replaced by StringBuilder
+		StringBuilder result=new StringBuilder();
+		if(value<0)
+			return "Oops It is negative value";
+		else if(value==0)
+			return "0";
+		else{
+			while(value>1){
+				rem = value%2;
+				value /= 2;
+				ds.push(rem);
+			}
+			ds.push(value);
+		}
+		while(!ds.isEmpty()){
+			result.append(ds.pop());
+		}
+		return result.toString();
+	}
+	
+	public static void main(String args[]){
+		System.out.println("Binary value of 10 is : "+convertDeciToBin(10));
+		System.out.println("Binary value of 0 is : "+convertDeciToBin(0));
+		System.out.println("Binary value of -11 is : "+convertDeciToBin(-11));
+		System.out.println("Binary value of 100 is : "+convertDeciToBin(100));
+		System.out.println("Binary value of 64 is : "+convertDeciToBin(64));
+		System.out.println("Binary value of 81 is : "+convertDeciToBin(81));
 	}
 
 }
