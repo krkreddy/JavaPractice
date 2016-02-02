@@ -11,6 +11,7 @@ public class stringCompare {
 		String B;
 		int i=0;
 		
+		System.out.println("Provide two input strings");
 		A=sc.next();
 		B=sc.next();
 		
@@ -19,11 +20,10 @@ public class stringCompare {
 //			i++;
 //		}
 		A.compareTo(B);
-//		
-		System.out.println(A+" "+B);
 		
+		System.out.println(A+" "+B);
 		System.out.println(A.substring(1, A.length()));
-		System.out.println((int)A.charAt(0)+" "+(char)108);
+		System.out.println((int)A.charAt(0)+" "+(char)100);
 
 	}
 

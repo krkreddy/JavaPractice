@@ -23,11 +23,11 @@ public class Cube {
 		return (a+b);
 	}
 	
-	public double add(double a, double b){  //Method oberloading
+	public double add(double a, double b){  //Method overloading
 		return (a+b);
 	}
 	
-	public String add(String a, String b){  //Method oberloading
+	public String add(String a, String b){  //Method overloading
 		return (a+b);
 	}
 	
