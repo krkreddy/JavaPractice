@@ -35,5 +35,4 @@ public class InsertionSort {
 		elements[cur] = elements[cur-1];
 		elements[cur-1] = temp;
 	}
-
 }
