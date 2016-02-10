@@ -20,6 +20,12 @@ public class EditDistance {
 					tracker[i][j] = minimum(tracker[i][j-1],tracker[i-1][j-1],tracker[i-1][j]);
 			}
 		}
+		for(int i=0;i<x;i++){
+			for(int j=0;j<y;j++){
+				System.out.print(tracker[i][j]+" ");
+			}
+			System.out.println();
+		}
 		return tracker[x-1][y-1];
 	}
 	

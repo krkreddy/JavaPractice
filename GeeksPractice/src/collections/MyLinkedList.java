@@ -18,6 +18,7 @@ public class MyLinkedList {
 		System.out.println(ll);
 		ll.removeLast();
 		System.out.println(ll);
+		System.out.println(ll);
 		System.out.println();
 		
 		System.out.println("=== Itartion over LL ===");
